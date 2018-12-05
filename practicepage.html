@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div class="topnav" id="mainTopnav">
+            <a href="#responsive" id="ident">Home</a>
+            <a href="#topnav">TopNav</a>
+            <a href="#hyper">Link</a>
+            <a href="#anchor">Anchor</a>
+            <a href="#display">Display</a>
+            <a href="#ajax">AJAX</a>
+            <div class="icon" onclick="showMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+
+
+        <script>
+            function showMenu() {
+                var elements = document.getElementsByClassName("topnav-link");
+                for (var i = 0; i < elements.length; i++) {
+                    if (elements[i].className === "topnav-link") {
+                        elements[i].className += " responsive";
+                    } else {
+                        elements[i].className = "topnav-link";
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

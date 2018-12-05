@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="javascript/javascript.js"></script>
+
+    </head>
+
+    <body>
+        <!--Topnav-->
+        <div class="topnav">
+
+            <a href="javascript:void(0);" id="icon" class="topnav-link" onclick="showMenu()">
+
+                <div class="fa fa-bars"></div>
+
+            </a>
+
+
+            <a href="attempt.html" class="topnav-link">Home</a>
+
+            <a href="index.html" class="topnav-link">NBA</a> 
+
+            <a href="nflnews.html" class="topnav-link">NFL</a>
+
+            <a href="othersports.html" class="topnav-link">Other</a>
+
+        </div>
+
+
+        <!--Vertical Tab-->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">Manchester City continue winning ways</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Merseyside Derby and that bizzarre finish</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">United faultering once more</button>
+        </div>
+        <div id="London" class="tabcontent" style="display: block">
+            <h3>No Aguero, No Sterling, No problem for Man City</h3>
+            <p>After defeating Bournemouth comfortably, Man City had another away tie in the premier league midweek and really 
+                showed their strength in depth as they dropped both top scorer-Sergio Aguero and star man Raheem Sterling and were still
+                good for 3 points as they kept their title charge on track, goals from Leroy Sane and Riyad Mahrez were enough
+                to seal the victory for the away side.</p>
+        </div>
+
+        <div id="Paris" class="tabcontent"style="display: none">
+            <h3>Liverpool take a famous and bizzare victroy over rivals Everton</h3>
+            <p>It's almost too difficult to describe as the Merseyside Derby saw one of the craziest finishes to a game in recent memory
+                The game locked at 0-0 looked all the world to finish a draw and give a point to each Merseyside squad.
+                However, with literally no time left on the clock Van Dijk spiralled a scuffed volley into the air that looked to be travelling over the Everton bar.
+                Before a moment of madness saw goalkeeper Jordan Pickford try to pluck it from the sky, fumble it to Divock Origi who headed in a close effort to win the game for the reds.
+            </p> 
+        </div>
+
+        <div id="Tokyo" class="tabcontent" style="display:none">
+            <h3>Will Mourinho be in the helm much longer</h3>
+            <p>Pressure continues to mount on head coach Jose Mourinho at Old trafford as his side were once again underwhelming
+                in their weekend draw with Southampton, despite going two goals down and clawing their way back to level, the team performed
+                in a lacklustre manner in the second half which saw the game flicker out of action and the body langugage of players suggested
+                the dissapointment at the result for the Man Utd team.</p>
+        </div>
+
+
+
+        <div class="outer-card">
+            <div class="row">
+                <div class="col-40">
+                    <div class="card">
+                        <div class="heading">
+                            <h2> World Sport News</h2>
+                        </div>
+                        <h4> From the Premiership </h4>                                               
+                        <p> An action packed weekend in the English Premier League, saw once again the top teams proving their dominance,
+                            alongside a brilliant Super Sundy full of derbies that will long be etched in the memory of Football fans. Liverpool defeated
+                            Everton in the merseyside derby with one of the most bizzare goals to ever cap off the tie. Manchester City were surpsingly threatened
+                            early in their game against Bournemouth but prevailed once more through the intervention of Raheem Sterling who continues
+                            his blistering form for the Champions. </p>
+                    </div>
+                </div>
+                <div class="col-60">
+                    <div class="card">
+                        <img src="img/raheem-sterling.jpg" style="height:280px">
+                    </div>                      
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

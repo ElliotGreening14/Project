@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="javascript/javascript.js"></script>
+
+    </head>
+
+    <body>
+        <!--Topnav-->
+        <div class="topnav">
+
+            <a href="javascript:void(0);" id="icon" class="topnav-link" onclick="showMenu()">
+
+                <div class="fa fa-bars"></div>
+
+            </a>
+
+
+            <a href="attempt.html" class="topnav-link">Home</a>
+
+            <a href="index.html" class="topnav-link">NBA</a> 
+
+            <a href="nflnews.html" class="topnav-link">NFL</a>
+
+            <a href="othersports.html" class="topnav-link">Other</a>
+
+        </div>
+
+
+        <!--Vertical Tab-->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">Kareem Hunt released by the Chiefs</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Are New England the #1 seed in the AFC again?</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Buffalo Bills release Kelvin Benjamin</button>
+        </div>
+        <div id="London" class="tabcontent" style="display: block">
+            <h3>Hunt no longer in Kansas City</h3>
+            <p>After learning of running back Kareem Hunt's recent domestic assault, the Kansas City Chiefs
+                released the player with immediate effect. 
+                Allegations of Hunt's disgression surfaced after an online video showing the player in a Hotel lobby,
+                assualting and kicking an un-named woman in the earlier hours of the morning. An investigation was 
+                launched by the NFL regarding the matter and it has led to immediate dismissal of Hunt from the franchises roster.</p>
+        </div>
+
+        <div id="Paris" class="tabcontent"style="display: none">
+            <h3>The Patriots dynasty perhaps not nearing its end</h3>
+            <p>Quietly the Patriots have once again gone about their business. With the ever present Bill Belliceck
+                and seemingly youthful 41-year-old Tom Brady, the rocky start to the season is a distant memory as the Pats sit in 
+                2nd spot in the AFC. Along with the choas surrounding Kansas City, a relatively lax finishing schedule looks set to 
+                lead the Boston franchise to the number #1 seed in the AFC.</p> 
+        </div>
+
+        <div id="Tokyo" class="tabcontent" style="display:none">
+            <h3>Kelvin Benjamin no longer part of Buffalo Bills</h3>
+            <p>Wide Reciever Kelvin Benjamin's NFL Career is spiralling out of control after another franchise
+                has given up on the troubled wideout. The Bills spent a 3rd round pick acquiring the former Panther
+                but now they have released a statement saying they wanted to move in a different direction rather than
+                pick up the end of seaosn contract extension for Benjamin.</p>
+        </div>
+
+
+        <div class="outer-card">
+            <div class="row">
+
+                <div class="col-40">
+                    <div class="card">
+                        <img src="img/kareem-hunt.jpg" style="height:280px">
+                    </div>
+                </div>
+                <div class="col-60">
+                    <div class="card">
+                        <div class="heading">
+                            <h2> Kareem Hunt released by Kansas City Chiefs </h2>
+                        </div>  
+                        <p> After learning of running back Kareem Hunt's recent domestic assault, the Kansas City Chiefs
+                            released the player with immediate effect. 
+                            Allegations of Hunt's disgression surfaced after an online video showing the player in a Hotel lobby,
+                            assualting and kicking an un-named woman in the earlier hours of the morning. An investigation was 
+                            launched by the NFL regarding the matter and it has led to immediate dismissal of Hunt from the franchises roster.
+                        </p>                                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
